@@ -1,0 +1,17 @@
+.bord{
+    border: 1px solid gray;
+}
+.form-control1{
+    border: none;
+}
+.navbars{
+    text-decoration: none;
+    font-size: 30px;
+}
+.form-control1:focus{
+    border: none;
+    background-color: none;
+}
+.logo{
+    width: 170px;
+}

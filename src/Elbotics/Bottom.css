@@ -1,0 +1,23 @@
+.bottoms{
+    width: 100%;
+}
+li{
+    font-size: 15px;
+    line-height: 1.6;
+}
+ul{
+    list-style-type: none;
+}
+img{
+    transform: scale(0.99);
+    /*making the scaling smooth*/
+    transition: transform 0.5s ease;
+}
+img:hover{
+   
+    transform: scale(1.04);
+    cursor: zoom-in;
+    
+}
+
+

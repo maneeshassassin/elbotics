@@ -1,0 +1,42 @@
+.fouricon a{
+    font-size: 24px;
+    padding: 4px 8px 8px 8px;
+
+    color: rgb(196, 193, 193);
+    margin-right: 12px;
+    
+    
+}
+li{
+    list-style-type: none;
+    line-height: 2.5;
+
+}
+li a {
+    text-decoration: none;
+
+
+}
+.back{
+    background-color:rgb(18, 53, 92);
+    color: white;
+    
+    
+}
+h1{
+    color: darkblue;
+}
+h3{
+    color: white;
+}
+.pad{
+    padding-left: 50px;
+}
+ul li a{
+    color: white !important;
+    line-height: 3;
+}
+.debit{
+    width: 200px;
+}
+

@@ -1,0 +1,114 @@
+
+
+
+.cardpic{
+    height: 350px;
+    transform: scale(0.97);
+    /*making the scaling smooth*/
+    transition: transform 0.5s ease;
+}
+.cardpic:hover{
+   
+    transform: scale(1.05);
+    cursor: zoom-in;
+    
+}
+
+.btndes{
+    text-decoration: none;
+    border: 1px solid skyblue ;
+   padding:0px;
+    border-radius: 40px;
+    background-color:blue;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+   
+   
+}
+.btndes:hover{
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.667);
+    font-size: large;
+    color:white;
+}
+.cardtitle{
+    font-weight: bold;
+    text-align: center;
+}
+.cart{
+    list-style-type: none;
+    background-color: blue;
+}
+
+.icon{
+    display: block;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.carddimension {
+    position: relative;
+    width: 100%;
+    height: 400px;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    background-color:white;
+    overflow: hidden;
+    width: 100%;
+    height: 18%;
+    transition: .5s ease;
+  }
+  .overlay2 {
+    position: absolute;
+    top: 7%;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 0%;
+    height: 50%;
+    transition: .5s ease;
+  }
+  
+  .card:hover .overlay {
+    height: 45%;
+  }
+  
+  .card:hover .overlay2 {
+    width: 15%;
+  }
+  
+  .text {
+    color: black;
+    font-size: 15px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -12%);
+    white-space: nowrap;
+    text-align: center;
+    line-height: 0.5;
+  }
+  .text1 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    text-align: center;
+  }
+
+  

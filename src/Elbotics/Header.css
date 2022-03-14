@@ -1,0 +1,30 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.headerbg{
+    background-color: rgba(0, 0, 255, 0.685);
+}
+.icons a{
+    color:white;
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-right: 2px solid white;
+}
+.lang{
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    margin-left: 60px;
+}
+.scroller{
+    position: fixed;
+    bottom: 0;
+    right: 0%;
+    z-index: 1;
+};
+
